@@ -102,7 +102,6 @@ class App {
       this.ctx.moveTo(this.mousePos.x, this.mousePos.y);
       //선의 끝점 지정
       this.ctx.lineTo(this.curItem.centerPos.x, this.curItem.centerPos.y);
-      //시작점에서 끝점까지 선 그리기
       this.ctx.stroke();
     }
   }
