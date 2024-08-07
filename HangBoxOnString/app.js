@@ -98,9 +98,7 @@ class App {
 
       this.ctx.beginPath();
 
-      //선의 시작점 지정
       this.ctx.moveTo(this.mousePos.x, this.mousePos.y);
-      //선의 끝점 지정
       this.ctx.lineTo(this.curItem.centerPos.x, this.curItem.centerPos.y);
       this.ctx.stroke();
     }
