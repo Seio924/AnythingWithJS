@@ -107,6 +107,7 @@ class App {
     }
   }
 
+  /**마우스 눌렀을 때 실행 */
   onDown(e) {
     this.mousePos.x = e.clientX;
     this.mousePos.y = e.clientY;
