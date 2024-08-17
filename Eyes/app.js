@@ -36,10 +36,6 @@ class App {
 
     this.ctx.scale(this.pixelRatio, this.pixelRatio);
 
-    // this.ctx.shadowOffsetX = 0;
-    // this.ctx.shadowOffsetY = 3;
-    // this.ctx.shadowBlur = 6;
-    // this.ctx.shadowColor = `rgba(0, 0, 0, 0.1)`;
 
     console.log("resize");
 
