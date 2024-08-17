@@ -36,7 +36,12 @@ class App {
 
     this.ctx.scale(this.pixelRatio, this.pixelRatio);
 
-
+    // 그림자 설정
+    // this.ctx.shadowOffsetX = 0;
+    // this.ctx.shadowOffsetY = 3;
+    // this.ctx.shadowBlur = 6;
+    // this.ctx.shadowColor = `rgba(0, 0, 0, 0.1)`;
+    
     console.log("resize");
 
     for (let i = 0; i < this.totalSticky; i++) {
